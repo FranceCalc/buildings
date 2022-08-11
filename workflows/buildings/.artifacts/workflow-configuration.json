@@ -1,0 +1,11 @@
+
+{
+    "knime.var.baseyear": {
+        "type": "string",
+        "default": "2015"
+    },
+    "knime.var.country_filter": {
+        "type": "string",
+        "default": "Germany|Austria"
+    }
+}

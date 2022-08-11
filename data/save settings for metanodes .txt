@@ -1,0 +1,2 @@
+<entry key="searchString" type="xstring" value="(.*)_(.*)_(.*)+Sum\((.*)(\[.*\])\)"/>
+<entry key="replaceString" type="xstring" value="$4_$2_$3_$1$5"/>

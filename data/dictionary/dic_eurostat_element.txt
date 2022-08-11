@@ -1,0 +1,18 @@
+### ELEMENT ####
+
+prod-capacity:Production capacity
+prod-primary:Primary production
+prod-recovery:Recovered and recycled products
+import:Imports
+export:Exports
+prod-capacity:Net maximum electrical capacity
+
+type-elec: - main activity producer electricity only
+type-chp: - main activity producer combined heat and power
+type-elec_auto-producer: - autoproducer electricity only
+type-chp_auto-producer: - autoproducer combined heat and power
+type-heat: - main activity producer heat only
+type-heat_auto-producer: - autoproducer heat only
+
+heat-prod:Gross heat production
+elec-prod:Gross electricity production

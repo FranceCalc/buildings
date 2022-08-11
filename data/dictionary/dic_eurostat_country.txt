@@ -1,0 +1,8 @@
+### Country ####
+
+EU28:European Union - 28 countries
+EU19:Euro area 19 countries
+Czech Republic:Czechia
+Germany:Germany until 1990 former territory of the FRG
+
+Belgium|Bulgaria|Czech Republic|Denmark|Germany|Estonia|Ireland|Greece|Spain|France|Croatia|Italy|Cyprus|Latvia|Lithuania|Luxembourg|Hungary|Malta|Netherlands|Austria|Poland|Portugal|Romania|Slovenia|Slovakia|Finland|Sweden|United Kingdom|Norway|Switzerland

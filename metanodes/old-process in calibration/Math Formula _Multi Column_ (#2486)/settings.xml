@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="$$CURRENT_COLUMN$$"/>
+<entry key="replaced_column" type="xstring" value="_suffix"/>
+<entry key="append_column" type="xboolean" value="true"/>
+<entry key="convert_to_int" type="xboolean" value="false"/>
+<config key="column_selection">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="36"/>
+<entry key="0" type="xstring" value="energy-share-by-use-ec_electricity_appliances_dishwasher[%]"/>
+<entry key="1" type="xstring" value="energy-share-by-use-ec_electricity_appliances_dryer[%]"/>
+<entry key="2" type="xstring" value="energy-share-by-use-ec_electricity_appliances_fridge-freezer[%]"/>
+<entry key="3" type="xstring" value="energy-share-by-use-ec_electricity_appliances_otherappliances[%]"/>
+<entry key="4" type="xstring" value="energy-share-by-use-ec_electricity_appliances_phone-comp[%]"/>
+<entry key="5" type="xstring" value="energy-share-by-use-ec_electricity_appliances_tv[%]"/>
+<entry key="6" type="xstring" value="energy-share-by-use-ec_electricity_appliances_wmachine[%]"/>
+<entry key="7" type="xstring" value="energy-share-by-use-ec_electricity_cooking_all-tech[%]"/>
+<entry key="8" type="xstring" value="energy-share-by-use-ec_gas-bio_cooking_all-tech[%]"/>
+<entry key="9" type="xstring" value="energy-share-by-use-ec_gas-ff-natural_cooking_all-tech[%]"/>
+<entry key="10" type="xstring" value="energy-share-by-use-ec_solid-bio_cooking_all-tech[%]"/>
+<entry key="11" type="xstring" value="energy-share-by-use-ec_solid-ff-coal_cooking_all-tech[%]"/>
+<entry key="12" type="xstring" value="energy-share-by-use-ec_electricity_hot-water_all-tech[%]"/>
+<entry key="13" type="xstring" value="energy-share-by-use-ec_gas-bio_hot-water_all-tech[%]"/>
+<entry key="14" type="xstring" value="energy-share-by-use-ec_gas-ff-natural_hot-water_all-tech[%]"/>
+<entry key="15" type="xstring" value="energy-share-by-use-ec_heat-district_hot-water_all-tech[%]"/>
+<entry key="16" type="xstring" value="energy-share-by-use-ec_heat-solar_hot-water_all-tech[%]"/>
+<entry key="17" type="xstring" value="energy-share-by-use-ec_liquid-bio_hot-water_all-tech[%]"/>
+<entry key="18" type="xstring" value="energy-share-by-use-ec_liquid-ff-heatingoil_hot-water_all-tech[%]"/>
+<entry key="19" type="xstring" value="energy-share-by-use-ec_solid-bio_hot-water_all-tech[%]"/>
+<entry key="20" type="xstring" value="energy-share-by-use-ec_solid-ff-coal_hot-water_all-tech[%]"/>
+<entry key="21" type="xstring" value="energy-share-by-use-ec_solid-waste_hot-water_all-tech[%]"/>
+<entry key="22" type="xstring" value="energy-share-by-use-ec_electricity_lighting_all-tech[%]"/>
+<entry key="23" type="xstring" value="energy-share-by-use-ec_electricity_space-cooling_all-tech[%]"/>
+<entry key="24" type="xstring" value="energy-share-by-use-ec_gas-bio_space-cooling_all-tech[%]"/>
+<entry key="25" type="xstring" value="energy-share-by-use-ec_gas-ff-natural_space-cooling_all-tech[%]"/>
+<entry key="26" type="xstring" value="energy-share-by-use-ec_electricity_space-heating_all-tech[%]"/>
+<entry key="27" type="xstring" value="energy-share-by-use-ec_gas-bio_space-heating_all-tech[%]"/>
+<entry key="28" type="xstring" value="energy-share-by-use-ec_gas-ff-natural_space-heating_all-tech[%]"/>
+<entry key="29" type="xstring" value="energy-share-by-use-ec_heat-district_space-heating_all-tech[%]"/>
+<entry key="30" type="xstring" value="energy-share-by-use-ec_heat-geothermal_space-heating_all-tech[%]"/>
+<entry key="31" type="xstring" value="energy-share-by-use-ec_liquid-bio_space-heating_all-tech[%]"/>
+<entry key="32" type="xstring" value="energy-share-by-use-ec_liquid-ff-heatingoil_space-heating_all-tech[%]"/>
+<entry key="33" type="xstring" value="energy-share-by-use-ec_solid-bio_space-heating_all-tech[%]"/>
+<entry key="34" type="xstring" value="energy-share-by-use-ec_solid-ff-coal_space-heating_all-tech[%]"/>
+<entry key="35" type="xstring" value="energy-share-by-use-ec_solid-waste_space-heating_all-tech[%]"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="energy.*share.*"/>
+<entry key="type" type="xstring" value="Regex"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="convert NaN into ?"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="3517"/>
+<entry key="y-coordinate" type="xint" value="-980"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.ext.jep.multicolumn.MultiColumnJEPNodeFactory"/>
+<entry key="node-name" type="xstring" value="Math Formula (Multi Column)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Math Expression Node"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.jep"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170930"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Math Expression (JEP)"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.jep.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170930"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Math Formula (Multi Column)"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

@@ -1,0 +1,6 @@
+### UNITS ####
+
+kt:Thousand tonnes per year
+TJ:Terajoule
+ktoe:Thousand tonnes of oil equivalent (TOE)
+MW:Megawatt

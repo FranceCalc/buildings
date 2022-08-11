@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model"/>
+<config key="variables"/>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="non-residential floor-area"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="3336"/>
+<entry key="y-coordinate" type="xint" value="834"/>
+<entry key="width" type="xint" value="139"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Status: DataLoadError: EUCalc - Graph Visualization 0:2189%%00010  Status: DataLoadError: WrappedNode Input 0:2189:0:517%%00010    Status: DataLoadError: Unable to load port content for node &quot;WrappedNode Input&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\WrappedNode Input (#517)\port_1\data.xml%%00010    Status: DataLoadError: State has changed from EXECUTED to IDLE%%00010  Status: DataLoadError: Extract Column Header 0:2189:0:534%%00010    Status: DataLoadError: Unable to load port content for node &quot;Extract Column Header&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Extract Column Header (#534)\port_1\data.xml%%00010  Status: DataLoadError: Transpose 0:2189:0:536%%00010    Status: DataLoadError: Unable to load port content for node &quot;Transpose&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Transpose (#536)\port_1\data.xml%%00010  Status: DataLoadError: Rule Engine 0:2189:0:538%%00010    Status: DataLoadError: Unable to load port content for node &quot;Rule Engine&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Rule Engine (#538)\port_1\data.xml%%00010  Status: DataLoadError: GroupBy 0:2189:0:543%%00010    Status: DataLoadError: Unable to load port content for node &quot;GroupBy&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\GroupBy (#543)\port_1\data.xml%%00010  Status: DataLoadError: Sorter 0:2189:0:542%%00010    Status: DataLoadError: Unable to load port content for node &quot;Sorter&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Sorter (#542)\port_1\data.xml%%00010  Status: DataLoadError: RowID 0:2189:0:544%%00010    Status: DataLoadError: Unable to load port content for node &quot;RowID&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\RowID (#544)\port_1\data.xml%%00010  Status: DataLoadError: Table Column to Variable 0:2189:0:540%%00010    Status: DataLoadError: Unable to load port content for node &quot;Table Column to Variable&quot;: Can't read spec file C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Table Column to Variable (#540)\port_1\spec\spec.zip%%00010  Status: DataLoadError: String Manipulation (Variable) 0:2189:0:545%%00010    Status: DataLoadError: Unable to load port content for node &quot;String Manipulation (Variable)&quot;: Can't read spec file C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\String Manipulation _Variable_ (#545)\port_1\spec\spec.zip%%00010  Status: DataLoadError: IF Switch 0:2189:0:529%%00010    Status: DataLoadError: Unable to load port content for node &quot;IF Switch&quot;: Can't read spec file C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\IF Switch (#529)\port_1\spec\spec.zip%%00010  Status: DataLoadError: Column Rename (Regex) 0:2189:0:526%%00010    Status: DataLoadError: Unable to load port content for node &quot;Column Rename (Regex)&quot;: Can't read spec file C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Column Rename _Regex_ (#526)\port_1\spec\spec.zip%%00010  Status: DataLoadError: GroupBy 0:2189:0:520%%00010    Status: DataLoadError: Unable to load port content for node &quot;GroupBy&quot;: Can't read spec file C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\GroupBy (#520)\port_1\spec\spec.zip%%00010  Status: DataLoadError: End IF 0:2189:0:530%%00010    Status: DataLoadError: Unable to load port content for node &quot;End IF&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\End IF (#530)\port_1\data.xml%%00010  Status: DataLoadError: Sorter 0:2189:0:525%%00010    Status: DataLoadError: Unable to load port content for node &quot;Sorter&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Sorter (#525)\port_1\data.xml%%00010  Status: DataLoadError: Unpivoting 0:2189:0:522%%00010    Status: DataLoadError: Unable to load port content for node &quot;Unpivoting&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Unpivoting (#522)\port_1\data.xml%%00010  Status: DataLoadError: IF Switch 0:2189:0:531%%00010    Status: DataLoadError: Unable to load port content for node &quot;IF Switch&quot;: Can't read spec file C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\IF Switch (#531)\port_1\spec\spec.zip%%00010  Status: DataLoadError: Pivoting 0:2189:0:533%%00010    Status: DataLoadError: Unable to load port content for node &quot;Pivoting&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Pivoting (#533)\port_1\data.xml%%00010  Status: DataLoadError: Pivoting 0:2189:0:505%%00010    Status: DataLoadError: Unable to load port content for node &quot;Pivoting&quot;: Can't read spec file C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Pivoting (#505)\port_1\spec\spec.zip%%00010  Status: DataLoadError: Column Rename (Regex) 0:2189:0:547%%00010    Status: DataLoadError: Unable to load port content for node &quot;Column Rename (Regex)&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Column Rename _Regex_ (#547)\port_1\data.xml%%00010  Status: DataLoadError: Column Rename (Regex) 0:2189:0:546%%00010    Status: DataLoadError: Unable to load port content for node &quot;Column Rename (Regex)&quot;: Can't read spec file C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Column Rename _Regex_ (#546)\port_1\spec\spec.zip%%00010  Status: DataLoadError: End IF 0:2189:0:532%%00010    Status: DataLoadError: Unable to load port content for node &quot;End IF&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\End IF (#532)\port_1\data.xml%%00010  Status: DataLoadError: String To Number 0:2189:0:516%%00010    Status: DataLoadError: Unable to load port content for node &quot;String To Number&quot;: No such data file: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\String To Number (#516)\port_1\data.xml%%00010  Status: DataLoadError: Generic JavaScript View 0:2189:0:515%%00010    Status: DataLoadError: Unable to load port content for node &quot;Generic JavaScript View&quot;: Can't read spec file C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Generic JavaScript View (#515)\port_1\spec\spec.zip%%00010    Status: DataLoadError: Loading model internals failed: C:\Users\Judit Kockat\EUC\buildings\workflows\buildings_6\EUCalc _ Gra (#2189)\Generic JavaScript View (#515)\internal\representation.xml (The system cannot find the path specified)"/>
+</config>
+<entry key="virtual-in-ID" type="xint" value="517"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="518"/>
+<config key="outports"/>
+<config key="metadata">
+<entry key="description" type="xstring" value="A line plot using a JavaScript based charting library. The view can be accessed via the Single View. %%00010The configuration of the graph is automatically build following the shape of the data table (OTS or FTS).%%00010%%00010Note, this node is currently under development. Future versions of the node might have more or changed functionality.%%00010"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="name" type="xstring" value="Port 1"/>
+<entry key="description" type="xstring" value="Data table with data to display (OTS or FTS)"/>
+<entry key="index" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2019-04-12 14:21:52"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/_common/lib/metanodes/EUCalc%20-%20Graph%20Visualization"/>
+</config>
+<entry key="layoutJSON" type="xstring" value="{&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;515&quot;,&quot;resizeMethod&quot;:&quot;aspectRatio4by3&quot;,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false,&quot;sizeHeight&quot;:true,&quot;scrolling&quot;:false}],&quot;widthMD&quot;:12}]}]}"/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="customCSS" type="xstring" value=""/>
+</config>

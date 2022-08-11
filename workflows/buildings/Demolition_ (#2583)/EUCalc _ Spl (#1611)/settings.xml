@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-selection-1595">
+<entry key="column" type="xstring" value="Years"/>
+</config>
+<config key="string-input-1596">
+<entry key="string" type="xstring" value="(.*)"/>
+</config>
+<config key="string-input-1597">
+<entry key="string" type="xstring" value="$1"/>
+</config>
+<config key="boolean-input-1598">
+<entry key="boolean" type="xboolean" value="true"/>
+</config>
+<config key="string-input-1599">
+<entry key="string" type="xstring" value="Years_number"/>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="add column%%00013%%00010for Years %%00013%%00010as double"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="-1354"/>
+<entry key="y-coordinate" type="xint" value="923"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="45"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Status: DataLoadError: EUCalc - Split column by group 3:2583:0:1611%%00010  Status: DataLoadError: WrappedNode Input 3:2583:0:1611:0:1592%%00010    Status: DataLoadError: Unable to load port content for node &quot;WrappedNode Input&quot;: No BufferedDataTable  with ID 120473%%00010    Status: DataLoadError: State has changed from EXECUTED to IDLE%%00010  Status: DataLoadError: Column Selection 3:2583:0:1611:0:1595%%00010    Status: DataLoadError: Unable to load internally held tables for node &quot;Column Selection&quot;: No BufferedDataTable  with ID 120479%%00010  Status: DataLoadError: String Replacer 3:2583:0:1611:0:1591%%00010    Status: DataLoadError: Unable to load port content for node &quot;String Replacer&quot;: Unknown table identifier: rearrange_columns_table_compressed%%00010  Status: DataLoadError: WrappedNode Output 3:2583:0:1611:0:1594%%00010    Status: DataLoadError: Unable to load internally held tables for node &quot;WrappedNode Output&quot;: No BufferedDataTable  with ID 120481"/>
+</config>
+<entry key="virtual-in-ID" type="xint" value="1592"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="1594"/>
+<config key="outports">
+<config key="outport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<config key="metadata">
+<entry key="description" type="xstring" value=""/>
+<config key="inports">
+<config key="inport_0">
+<entry key="name" type="xstring" value="Port 1"/>
+<entry key="description" type="xstring" value=""/>
+<entry key="index" type="xint" value="0"/>
+</config>
+</config>
+<config key="outports">
+<config key="outport_0">
+<entry key="name" type="xstring" value="Port 1"/>
+<entry key="description" type="xstring" value=""/>
+<entry key="index" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2019-04-06 23:27:04"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/_common/lib/metanodes/EUCalc%20-%20Split%20column%20by%20group"/>
+</config>
+<entry key="layoutJSON" type="xstring" value=""/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="customCSS" type="xstring" value=""/>
+</config>

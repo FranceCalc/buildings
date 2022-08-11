@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010import zipfile%%00010import lxml.etree%%00010import numpy as np%%00010%%00010#definition of variables%%00010datafolder = flow_variables['module_name_current']+'/data'%%00010trigrams = {'Agriculture':'agr',%%00010%%00009%%00009%%00009'Buildings':'bld',%%00010%%00009%%00009%%00009'Climate':'clm',%%00010%%00009%%00009%%00009'Electricity':'elc',%%00010%%00009%%00009%%00009'Oil Refinery':'oil',%%00010%%00009%%00009%%00009'Employment':'emp',%%00010%%00009%%00009%%00009'Industry':'ind',%%00010%%00009%%00009%%00009'Industry Ammonia':'amm',%%00010%%00009%%00009%%00009'Industry Power':'ind',%%00010%%00009%%00009%%00009'Lifestyle':'lfs',%%00010%%00009%%00009%%00009'Materials':'mat',%%00010%%00009%%00009%%00009'Social impacts':'sip',%%00010%%00009%%00009%%00009'Transboundary':'trb',%%00010%%00009%%00009%%00009'Transport':'tra',%%00010%%00009%%00009%%00009'Technology':'tec'%%00010}%%00010mod_tri = trigrams.get(flow_variables['module_name_current'])%%00010flow_variables['mod_tri']='fts_'+mod_tri%%00010%%00010"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="PYTHON3"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+<entry key="chunkSize" type="xint" value="500000"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Constant to flowvariable"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="655"/>
+<entry key="y-coordinate" type="xint" value="2180"/>
+<entry key="width" type="xint" value="131"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.variables.Python2VariablesNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Edit Variable"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.1.v201808311614"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.6.2.v201811051558"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Edit Variable"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

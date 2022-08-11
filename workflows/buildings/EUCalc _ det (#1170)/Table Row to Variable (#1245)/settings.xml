@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Concatenate(Sublever)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="missing"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Row0"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Concatenate(Sublever)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="fts_bld_energy-need-per-m2_non-residential_education_1800-2010|fts_bld_energy-need-per-m2_non-residential_offices_1800-2010|fts_bld_energy-need-per-m2_non-residential_health_1800-2010|fts_bld_energy-need-per-m2_non-residential_hotels_1800-2010|fts_bld_energy-need-per-m2_non-residential_other_1800-2010|fts_bld_energy-need-per-m2_non-residential_trade_1800-2010|fts_bld_building-construction-mix_education-dep_1800-2010|fts_bld_building-construction-mix_education-exi_1800-2010|fts_bld_building-construction-mix_education-med_1800-2010|fts_bld_building-construction-mix_education-shl_1800-2010|fts_bld_building-demolition-rate_education-dep_1800-2010|fts_bld_building-demolition-rate_education-exi_1800-2010|fts_bld_building-demolition-rate_education-med_1800-2010|fts_bld_building-demolition-rate_education-shl_1800-2010|fts_bld_building-construction-mix_offices-dep_1800-2010|fts_bld_building-construction-mix_offices-exi_1800-2010|fts_bld_building-construction-mix_offices-med_1800-2010|fts_bld_building-construction-mix_offices-shl_1800-2010|fts_bld_building-renovation-mix_education-dep_1800-2010|fts_bld_building-renovation-mix_education-exi_1800-2010|fts_bld_building-renovation-mix_education-med_1800-2010|fts_bld_building-renovation-mix_education-shl_1800-2010|fts_bld_building-construction-mix_health-dep_1800-2010|fts_bld_building-construction-mix_health-exi_1800-2010|fts_bld_building-construction-mix_health-med_1800-2010|fts_bld_building-construction-mix_health-shl_1800-2010|fts_bld_building-construction-mix_hotels-dep_1800-2010|fts_bld_building-construction-mix_hotels-exi_1800-2010|fts_bld_building-construction-mix_hotels-med_1800-2010|fts_bld_building-construction-mix_hotels-shl_1800-2010|fts_bld_building-demolition-rate_offices-dep_1800-2010|fts_bld_building-demolition-rate_offices-exi_1800-2010|fts_bld_building-demolition-rate_offices-med_1800-2010|fts_bld_building-demolition-rate_offices-shl_1800-2010|fts_bld_building-construction-mix_other-dep_1800-2010|fts_bld_building-construction-mix_other-exi_1800-2010|fts_bld_building-construction-mix_other-med_1800-2010|fts_bld_building-construction-mix_other-shl_1800-2010|fts_bld_building-construction-mix_trade-dep_1800-2010|fts_bld_building-construction-mix_trade-exi_1800-2010|fts_bld_building-construction-mix_trade-med_1800-2010|fts_bld_building-construction-mix_trade-shl_1800-2010|fts_bld_building-demolition-rate_health-dep_1800-2010|fts_bld_building-demolition-rate_health-exi_1800-2010|fts_bld_building-demolition-rate_health-med_1800-2010|fts_bld_building-demolition-rate_health-shl_1800-2010|fts_bld_building-demolition-rate_hotels-dep_1800-2010|fts_bld_building-demolition-rate_hotels-exi_1800-2010|fts_bld_building-demolition-rate_hotels-med_1800-2010|fts_bld_building-demolition-rate_hotels-shl_1800-2010|fts_bld_building-renovation-mix_offices-dep_1800-2010|fts_bld_building-renovation-mix_offices-exi_1800-2010|fts_bld_building-renovation-mix_offices-med_1800-2010|fts_bld_building-renovation-mix_offices-shl_1800-2010|fts_bld_building-demolition-rate_other-dep_1800-2010|fts_bld_building-demolition-rate_other-exi_1800-2010|fts_bld_building-demolition-rate_other-med_1800-2010|fts_bld_building-demolition-rate_other-shl_1800-2010|fts_bld_building-demolition-rate_trade-dep_1800-2010|fts_bld_building-demolition-rate_trade-exi_1800-2010|fts_bld_building-demolition-rate_trade-med_1800-2010|fts_bld_building-demolition-rate_trade-shl_1800-2010|fts_bld_building-renovation-mix_health-dep_1800-2010|fts_bld_building-renovation-mix_health-exi_1800-2010|fts_bld_building-renovation-mix_health-med_1800-2010|fts_bld_building-renovation-mix_health-shl_1800-2010|fts_bld_building-renovation-mix_hotels-dep_1800-2010|fts_bld_building-renovation-mix_hotels-exi_1800-2010|fts_bld_building-renovation-mix_hotels-med_1800-2010|fts_bld_building-renovation-mix_hotels-shl_1800-2010|fts_bld_energy-need-per-m2_residential_mfh_1800-2010|fts_bld_energy-need-per-m2_residential_sfh_1800-2010|fts_bld_building-construction-mix_mfh-dep_1800-2010|fts_bld_building-construction-mix_mfh-exi_1800-2010|fts_bld_building-construction-mix_mfh-med_1800-2010|fts_bld_building-construction-mix_mfh-shl_1800-2010|fts_bld_building-construction-mix_sfh-dep_1800-2010|fts_bld_building-construction-mix_sfh-exi_1800-2010|fts_bld_building-construction-mix_sfh-med_1800-2010|fts_bld_building-construction-mix_sfh-shl_1800-2010|fts_bld_building-renovation-mix_other-dep_1800-2010|fts_bld_building-renovation-mix_other-exi_1800-2010|fts_bld_building-renovation-mix_other-med_1800-2010|fts_bld_building-renovation-mix_other-shl_1800-2010|fts_bld_building-renovation-mix_trade-dep_1800-2010|fts_bld_building-renovation-mix_trade-exi_1800-2010|fts_bld_building-renovation-mix_trade-med_1800-2010|fts_bld_building-renovation-mix_trade-shl_1800-2010|fts_bld_building-demolition-rate_mfh-dep_1800-2010|fts_bld_building-demolition-rate_mfh-exi_1800-2010|fts_bld_building-demolition-rate_mfh-med_1800-2010|fts_bld_building-demolition-rate_mfh-shl_1800-2010|fts_bld_building-demolition-rate_sfh-dep_1800-2010|fts_bld_building-demolition-rate_sfh-exi_1800-2010|fts_bld_building-demolition-rate_sfh-med_1800-2010|fts_bld_building-demolition-rate_sfh-shl_1800-2010|fts_bld_building-renovation-mix_mfh-dep_1800-2010|fts_bld_building-renovation-mix_mfh-exi_1800-2010|fts_bld_building-renovation-mix_mfh-med_1800-2010|fts_bld_building-renovation-mix_mfh-shl_1800-2010|fts_bld_building-renovation-mix_sfh-dep_1800-2010|fts_bld_building-renovation-mix_sfh-exi_1800-2010|fts_bld_building-renovation-mix_sfh-med_1800-2010|fts_bld_building-renovation-mix_sfh-shl_1800-2010|gas-ff-natural-condensing|education-dep_1800-2010|education-exi_1800-2010|education-med_1800-2010|education-shl_1800-2010|gas-ff-natural-lowtemp|electricity-heatpumps|offices-dep_1800-2010|offices-exi_1800-2010|offices-med_1800-2010|offices-shl_1800-2010|health-dep_1800-2010|health-exi_1800-2010|health-med_1800-2010|health-shl_1800-2010|hotels-dep_1800-2010|hotels-exi_1800-2010|hotels-med_1800-2010|hotels-shl_1800-2010|liquid-ff-heatingoil|other-dep_1800-2010|other-exi_1800-2010|other-med_1800-2010|other-shl_1800-2010|trade-dep_1800-2010|trade-exi_1800-2010|trade-med_1800-2010|trade-shl_1800-2010|mfh-dep_1800-2010|mfh-exi_1800-2010|mfh-med_1800-2010|mfh-shl_1800-2010|sfh-dep_1800-2010|sfh-exi_1800-2010|sfh-med_1800-2010|sfh-shl_1800-2010|solid-bio-pellets|solid-bio-woodlog|heat-geothermal|gas-ff-natural|solid-ff-coal|heat-ambient|electricity|dishwasher|heat-solar|education|solid-bio|wmachine|freezer|offices|fridge|health|hotels|dryer|other|phone|trade|comp|ac|dh|tv"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="CFG_FAILONMISS_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_FAILONMISS" type="xstring" value="Use Defaults"/>
+<config key="CFG_Integer_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_Integer" type="xint" value="0"/>
+<config key="CFG_Double_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_Double" type="xdouble" value="0.0"/>
+<config key="CFG_String_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_String" type="xstring" value="missing"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablerowtovariable.TableToVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="Table Row to Variable (deprecated)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.0.v201912041211"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.1.0.v201912041824"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Table Row to Variable (deprecated)"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>
